@@ -30,9 +30,9 @@ public class Wilder {
     // méthode
     public String whoAmI() {
         if (this.aware == true) {
-            return "Je m'appelle " + firstName + " et je suis aware";
+            return "Je m'appelle " + this.firstName + " et je suis aware";
         } else {
-            return "Je m'appelle " + firstName + " et je ne suis pas aware";
+            return "Je m'appelle " + this.firstName + " et je ne suis pas aware";
         }
     }
 }
